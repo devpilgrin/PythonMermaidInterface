@@ -27,7 +27,7 @@
 
 ```bash
 # 1. Клонируем репозиторий
-git clone https://github.com/yourname/mermaid-studio.git
+git clone https://github.com/devpilgrin/mermaid-studio.git
 cd mermaid-studio
 
 # 2. Устанавливаем зависимости Python
