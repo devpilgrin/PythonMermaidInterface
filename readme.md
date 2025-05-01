@@ -1,10 +1,6 @@
 # 🚀 Mermaid Studio — Визуальный редактор диаграмм Mermaid
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourname/mermaid-studio)
-![GitHub](https://img.shields.io/github/license/yourname/mermaid-studio)
-![GitHub issues](https://img.shields.io/github/issues/yourname/mermaid-studio)
-
-**Mermaid Studio** — это мощный инструмент с графическим интерфейсом для создания и редактирования диаграмм Mermaid. Идеально подходит для:
+**Mermaid Studio** — это инструмент с графическим интерфейсом для создания и редактирования диаграмм Mermaid. Идеально подходит для:
 - Быстрого прототипирования
 - Обучения синтаксису Mermaid
 - Создания технической документации
@@ -62,7 +58,7 @@ python app.py
 4. **Результат** — отображение диаграммы справа
 
 ### Пример кода
-```mermaid
+```
 graph TD
     A[Start] --> B{Decision}
     B -->|Yes| C[OK]
@@ -102,15 +98,3 @@ insert_code = """sequenceDiagram
 4. 💡 Предлагайте новые фичи
 
 MIT License © 2024 Your Name
-```
-
-**Примечания:**
-1. Замените `yourname` на ваш GitHub username
-2. Добавьте реальный скриншот интерфейса
-3. Для профессионального вида можно добавить:
-   - Скринкаст работы приложения
-   - Примеры сложных диаграмм
-   - Инструкцию по Docker
-   - Бейджы Codecov/Codacy
-
-Используйте [Shield.io](https://shields.io/) для создания дополнительных статус-бейджей.
