@@ -97,4 +97,4 @@ insert_code = """sequenceDiagram
 3. 🐛 Сообщайте об ошибках
 4. 💡 Предлагайте новые фичи
 
-MIT License © 2024 Your Name
+MIT License © 2025
