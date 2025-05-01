@@ -50,7 +50,7 @@ python app.py
 ## 🛠️ Использование
 
 ### Интерфейс
-![Интерфейс Mermaid Studio](https://example.com/screenshot.png)
+![Интерфейс Mermaid Studio](/pic/2025-05-01_14-29-56.png)
 
 1. **Панель редактирования** — введите код Mermaid слева
 2. **Выбор формата** — переключение между SVG и PNG
