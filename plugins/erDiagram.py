@@ -1,4 +1,5 @@
 button_text = "erDiagram"
+button_icon = './icon/1809413.png' 
 insert_code = """erDiagram
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER {

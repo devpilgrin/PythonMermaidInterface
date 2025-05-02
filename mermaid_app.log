@@ -1,0 +1,150 @@
+2025-05-02 07:51:54,082 - ERROR - Ошибка генерации: Page.evaluate: Error: Parse error on line 1:
+graph TD---title: Animal 
+--------^
+Expecting 'SEMI', 'NEWLINE', 'SPACE', got 'LINK'
+    at Sn.parseError (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:477:29287)
+    at Sn.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:479:179)
+    at Uie.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:483:14)
+    at Diagram.fromText (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2560:256)
+    at async Object.render (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2567:1187)
+Traceback (most recent call last):
+  File "f:\Projects\mermaidCli\appv2.py", line 52, in generate_diagram
+    _, _, data = await render_mermaid(
+                 ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\mermaid_cli\renderer.py", line 129, in render_mermaid
+    result = await page.evaluate("""
+             ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<93 lines>...
+    """)
+    ^^^^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8513, in evaluate
+    await self._impl_obj.evaluate(
+        expression=expression, arg=mapping.to_impl(arg)
+    )
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_frame.py", line 278, in evaluate
+    await self._channel.send(
+    ...<5 lines>...
+    )
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: Error: Parse error on line 1:
+graph TD---title: Animal 
+--------^
+Expecting 'SEMI', 'NEWLINE', 'SPACE', got 'LINK'
+    at Sn.parseError (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:477:29287)
+    at Sn.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:479:179)
+    at Uie.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:483:14)
+    at Diagram.fromText (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2560:256)
+    at async Object.render (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2567:1187)
+2025-05-02 08:04:06,077 - ERROR - Ошибка генерации: Page.evaluate: Error: Parse error on line 1:
+graph TD---title: Animal 
+--------^
+Expecting 'SEMI', 'NEWLINE', 'SPACE', got 'LINK'
+    at Sn.parseError (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:477:29287)
+    at Sn.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:479:179)
+    at Uie.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:483:14)
+    at Diagram.fromText (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2560:256)
+    at async Object.render (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2567:1187)
+Traceback (most recent call last):
+  File "f:\Projects\mermaidCli\appv3.py", line 52, in generate_diagram
+    _, _, data = await render_mermaid(
+                 ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\mermaid_cli\renderer.py", line 129, in render_mermaid
+    result = await page.evaluate("""
+             ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<93 lines>...
+    """)
+    ^^^^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8513, in evaluate
+    await self._impl_obj.evaluate(
+        expression=expression, arg=mapping.to_impl(arg)
+    )
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_frame.py", line 278, in evaluate
+    await self._channel.send(
+    ...<5 lines>...
+    )
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: Error: Parse error on line 1:
+graph TD---title: Animal 
+--------^
+Expecting 'SEMI', 'NEWLINE', 'SPACE', got 'LINK'
+    at Sn.parseError (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:477:29287)
+    at Sn.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:479:179)
+    at Uie.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:483:14)
+    at Diagram.fromText (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2560:256)
+    at async Object.render (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2567:1187)
+2025-05-02 08:19:24,370 - ERROR - Ошибка генерации: Page.evaluate: Error: Parse error on line 1:
+graph TD---title: Animal 
+--------^
+Expecting 'SEMI', 'NEWLINE', 'SPACE', got 'LINK'
+    at Sn.parseError (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:477:29287)
+    at Sn.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:479:179)
+    at Uie.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:483:14)
+    at Diagram.fromText (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2560:256)
+    at async Object.render (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2567:1187)
+Traceback (most recent call last):
+  File "f:\Projects\mermaidCli\appv3.py", line 52, in generate_diagram
+    _, _, data = await render_mermaid(
+                 ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\mermaid_cli\renderer.py", line 129, in render_mermaid
+    result = await page.evaluate("""
+             ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<93 lines>...
+    """)
+    ^^^^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8513, in evaluate
+    await self._impl_obj.evaluate(
+        expression=expression, arg=mapping.to_impl(arg)
+    )
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_frame.py", line 278, in evaluate
+    await self._channel.send(
+    ...<5 lines>...
+    )
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "F:\Projects\mermaidCli\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: Error: Parse error on line 1:
+graph TD---title: Animal 
+--------^
+Expecting 'SEMI', 'NEWLINE', 'SPACE', got 'LINK'
+    at Sn.parseError (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:477:29287)
+    at Sn.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:479:179)
+    at Uie.parse (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:483:14)
+    at Diagram.fromText (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2560:256)
+    at async Object.render (https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js:2567:1187)

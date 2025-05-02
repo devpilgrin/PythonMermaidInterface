@@ -1,4 +1,5 @@
 button_text = "sequenceDiagram"
+button_icon = "./icon/11713412.png" 
 insert_code = """erDiagram
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER {

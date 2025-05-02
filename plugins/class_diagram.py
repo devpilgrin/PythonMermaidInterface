@@ -1,4 +1,8 @@
+# Текст кнопки
 button_text = "classDiagram"
+# Иконка (URL или имя иконки из Font Awesome)
+button_icon = './icon/11906260.png'  # Иконка гаечного ключа
+# Код Mermaid, который будет вставлен в редактор
 insert_code = """---
 title: Animal example
 ---
